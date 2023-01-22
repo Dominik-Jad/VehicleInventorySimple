@@ -1,0 +1,59 @@
+
+body {
+	font-family: arial;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	width: 50%;
+	margin: 0 auto;
+	background: #7997A1;
+}
+
+table td, table th {
+	padding: 5px;
+}
+
+table tr:nth-child(even) {
+	background: #C9D5D9;
+}
+
+h1 {
+	text-transform: capitalize;
+}
+
+a.btn {
+	background: #7997A1;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+p {
+	padding: 2px;
+}
+
+input[type=text] {
+	padding: 5px;
+	border: 2px solid #7997A1;
+}
+input[type=password] {
+	padding: 5px;
+	border: 2px solid #7997A1;
+}
+input[type=submit] {
+	border: 0 none;
+	background: #7997A1;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+	margin-top: 20px;
+	margin-right: 5px;
+}
